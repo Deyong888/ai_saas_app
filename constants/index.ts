@@ -1,7 +1,7 @@
 export const navLinks = [
   {
-    label: "Home",
-    route: "/",
+    label: "Dashboard",
+    route: "/dashboard",
     icon: "/assets/icons/home.svg",
   },
   {
@@ -40,6 +40,7 @@ export const navLinks = [
     icon: "/assets/icons/bag.svg",
   },
 ];
+
 
 export const plans = [
   {

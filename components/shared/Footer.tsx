@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 
 const Footer = () => {
   return (
@@ -31,7 +31,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="mb-4 flex max-w-[272px] items-start justify-start">
-                    <Image
+                    <img
                         src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358f6e24e55dd49a541fd06_EnvelopeSimple-3.svg"
                         alt=""
                         className="mr-3 inline-block"

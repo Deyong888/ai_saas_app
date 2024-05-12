@@ -18,7 +18,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
         </h1></a>
         <p className="white">Easily edit your images and enhance the quality of your visual content. Try AI Image Editing service now.</p>
         <ul className="flex-center w-full gap-20">
-          {navLinks.slice(1, 5).map((link) => (
+          {navLinks.slice(1, 6).map((link) => (
             <Link
               key={link.route}
               href={link.route}

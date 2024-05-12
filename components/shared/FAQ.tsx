@@ -96,7 +96,7 @@ const FAQ = () => {
                     The process typically involves the following steps:
                     1.Uploading the photo to the AI Image Editor.
                     2.Selecting the object or area to be removed, either by drawing a mask or using a selection tool.
-                    3.Letting the AI algorithm process the image, where it analyzes the context and removes the selected object or background.
+                    3.Letting the AI algorithm process the image.
                     4.Reviewing the result and making any fine-tuning adjustments if necessary.
                     5.Saving the edited image.
                     </p>

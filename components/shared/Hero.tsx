@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from  'next/image'
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
     </div>
     {/* Image Div */}
     <div className="relative mx-auto h-[512px]">
-      <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63915d247ab06a755ee4aaee_magicpattern-KfFmwa7m5VQ-unsplash.jpg" alt="Revolutionary AI Image Editor" className="inline-block h-full w-full rounded-xl object-cover sm:rounded-2xl" />
+      <Image src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63915d247ab06a755ee4aaee_magicpattern-KfFmwa7m5VQ-unsplash.jpg" alt="Revolutionary AI Image Editor" className="inline-block h-full w-full rounded-xl object-cover sm:rounded-2xl" />
       <div className="absolute bottom-0 left-4 right-0 top-4 -z-10 h-full w-full rounded-2xl bg-black"></div>
     </div>
   </div>

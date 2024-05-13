@@ -13,7 +13,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
   return (
     <>
       <section className="home">
-        <a href="./dashboard"><h1 className="home-heading">
+        <a href="./dashboard" title="AI Image Editor online"><h1 className="home-heading">
         AI Image Editor
         </h1></a>
         <p className="white">Easily edit your images and enhance the quality of your visual content. Try AI Image Editing service now.</p>

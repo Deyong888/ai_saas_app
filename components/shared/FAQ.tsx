@@ -74,7 +74,7 @@ const FAQ = () => {
                         If you are finding AI photo Editor online,there are a few key factors to consider
                         to ensure you choose the right one for your needs:Ease of Use,Advanced AI Features,
                         Performance,Pricing,Integration.Our AI Image Editor not only meets your immediate 
-                        needs but also grows with you as your editing skills and requirements evolve
+                        needs but also grows with you as your editing skills and requirements evolve.
                     </p>
                 </div>
                 {/* FAQ Item */}

@@ -20,7 +20,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
 
 			<section className="home">
 				<h1 className="home-heading">
-					AI Image Editor
+				<a href="./"  title="AI Image Editor">AI Image Editor</a>
 				</h1>
 				<ul className="flex-center w-full gap-20">
 					{navLinks.slice(0, 6).map((link) => (
@@ -60,7 +60,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
 						<div className="mx-auto max-w-3xl text-center">
 							{/* Heading Div */}
 							<div className="mb-6 max-w-[720px] lg:mb-12">
-								<h2 className="mb-4 text-3xl font-semibold md:text-5xl"><span className="bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a5b04f2836ad87dcc3bc_Rectangle%20773.svg')] bg-cover bg-center px-4 text-white">Transform Your Images Today with</span>&nbsp;Π AI Image Editor</h2>
+								<h2 className="mb-4 text-3xl font-semibold md:text-5xl"><span className="bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a5b04f2836ad87dcc3bc_Rectangle%20773.svg')] bg-cover bg-center px-4 text-white">Transform Your Images Today with</span>&nbsp; AI Image Editor</h2>
 								<div className="mx-auto max-w-[630px]">
 									<p className="text-[#e0e0e0]">Start your free trial now and experience the power of AI-powered image editing.</p>
 								</div>

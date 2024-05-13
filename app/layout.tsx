@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Sans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ClerkProvider } from "@clerk/nextjs";
-import Script from 'next/script' // 导入Script组件
+import GoogleAnalytics from "@/components/shared/GoogleAnalytics";
 
 import "./globals.css";
 
@@ -27,26 +27,11 @@ export default function RootLayout({
       variables: { colorPrimary: '#624cf5' }
     }}>
       <html lang="en">
-        <head>
-          {/* Google统计代码 */}
-          <Script
-            strategy="afterInteractive"
-            src={`https://www.googletagmanager.com/gtag/js?id=G-DQH1H0LW2E`}
-          />
-          <Script id="google-analytics" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-DQH1H0LW2E');
-            `}
-          </Script>
-        </head>
         
         <body className={cn("font-IBMPlex antialiased", IBMPlex.variable)}>
           {children}
         </body>
+        <GoogleAnalytics />
       </html>
     </ClerkProvider>
   );

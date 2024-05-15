@@ -22,17 +22,25 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // 检查 User-Agent 是否包含 Googlebot
+  const isGooglebot = typeof window !== "undefined" && /Googlebot/.test(navigator.userAgent);
+
   return (
-    <ClerkProvider appearance={{
-      variables: { colorPrimary: '#624cf5' }
-    }}>
-      <html lang="en">
-        
-        <body className={cn("font-IBMPlex antialiased", IBMPlex.variable)}>
-          {children}
-        </body>
+    <html lang="en">
+      <body className={cn("font-IBMPlex antialiased", IBMPlex.variable)}>
+        {!isGooglebot ? (
+          <ClerkProvider appearance={{
+            variables: { colorPrimary: '#624cf5' }
+          }}>
+            {children}
+          </ClerkProvider>
+        ) : (
+          <>
+            {children}
+          </>
+        )}
         <GoogleAnalytics />
-      </html>
-    </ClerkProvider>
+      </body>
+    </html>
   );
 }

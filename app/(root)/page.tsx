@@ -39,17 +39,6 @@ const Home = async ({ searchParams }: SearchParamProps) => {
 			<Hero />
 			<Feature />
 
-			<section className="sm:mt-12">
-				<div className="root-container">
-					<Collection
-						hasSearch={true}
-						images={images?.data}
-						totalPages={images?.totalPage}
-						page={page}
-					/>
-				</div>
-			</section>
-
 			<FAQ />
 			
 			<header>

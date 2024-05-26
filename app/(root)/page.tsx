@@ -16,7 +16,8 @@ const Home = async ({ searchParams }: SearchParamProps) => {
 
 	return (
 		<>
-
+        
+			<link rel="canonical" href="https://imageeditor.online" />
 
 			<section className="home">
 				<h1 className="home-heading">

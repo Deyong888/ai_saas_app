@@ -147,7 +147,7 @@ const FAQ = () => {
             </div>
             {/* FAQ Text */}
             <p className="text-center">
-                Can’t find the answer you’re looking for? See our 
+                Can’t find the answer you’re looking for? See our  
                 <a href="https://blog.imageeditor.online">AI Image Editor Blog</a> for more information.
             </p>
         </div>

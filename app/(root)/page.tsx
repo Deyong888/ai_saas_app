@@ -56,7 +56,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
 								</div>
 							</div>
 							{/* CTA */}
-							<a href="#" className="inline-block rounded-xl bg-black px-8 py-4 font-semibold text-white [box-shadow:rgb(255,_255,_255)_6px_6px]"> Start Editing Now</a>
+							<a href="https://imageeditor.online/dashboard" className="inline-block rounded-xl bg-black px-8 py-4 font-semibold text-white [box-shadow:rgb(255,_255,_255)_6px_6px]"> Start Editing Now</a>
 						</div>
 					</div>
 				</div>

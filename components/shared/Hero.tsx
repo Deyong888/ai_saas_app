@@ -21,9 +21,9 @@ const Hero = () => {
     </div>
     {/* Image Div */}
     <div className="relative mx-auto h-[512px]">
-      <img src="/assets/images/Pixai.png" alt="Revolutionary AI Image Editor" className="inline-block h-full w-full rounded-xl object-cover sm:rounded-2xl" />
-      <div className="absolute bottom-0 left-4 right-0 top-4 -z-10 h-full w-full rounded-2xl bg-black"></div>
       <video src="/assets/Imageeditor.mp4" className="inline-block h-full w-full rounded-xl sm:rounded-2xl" controls></video>
+      <div className="absolute bottom-0 left-4 right-0 top-4 -z-10 h-full w-full rounded-2xl bg-black"></div>
+
     </div>
   </div>
   {/* BG Images */}
